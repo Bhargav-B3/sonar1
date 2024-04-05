@@ -15,8 +15,9 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
-		<sonar.host.url>http://3.110.40.246:9000/</sonar.host.url>
-		<sonar.login>sqa_fff761d34c7114a41f15aed5de44596f0167f6f0</sonar.login>
+		<sonar.host.url>http://3.110.48.220:9000/</sonar.host.url>
+	        <sonar.login>admin</sonar.login>
+	        <sonar.password>sonar</sonar.password>
 	</properties>
 	<dependencies>
 		<dependency>
