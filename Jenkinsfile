@@ -9,10 +9,10 @@ pipeline{
                 sh'mvn clean package'
             }
         }
-        stage('Sonarqube Analaysis'){
+        stage('My SonarQube Server'){
             steps{
                 withSonarQubeEn('My SonarQube Server'){
-                    sh'mvn sonar:sonar'
+                    sh'mvn sonar :sonar'
                 }
             }
         }
