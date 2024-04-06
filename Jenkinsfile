@@ -6,13 +6,13 @@ pipeline{
     stages{
         stage('build'){
             steps{
-                sh'mvn clean package'
+                sh 'mvn clean package'
             }
         }
         stage('My SonarQube Server'){
             steps{
                 withSonarQubeEn('My SonarQube Server'){
-                    sh'mvn sonar :sonar'
+                    sh 'mvn sonar :sonar'
                 }
             }
         }
